@@ -1,0 +1,13 @@
+{
+  "name": "proxy-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "httpServer": "node ./http-server/http-server.js",
+    "tunnelServer":"node ./tunnel-server/tunnel-server.js",
+    "httpsProxy":"node ./https-proxy/https-proxy.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
